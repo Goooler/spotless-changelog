@@ -16,7 +16,7 @@ plugins {
 	// https://github.com/equodev/equo-ide/blob/main/plugin-gradle/CHANGELOG.md
 	id 'dev.equo.ide' version '1.7.5' apply false
 	// https://github.com/gradle-nexus/publish-plugin/releases
-	id 'io.github.gradle-nexus.publish-plugin' version '2.0.0-rc-1' apply false
+	id 'io.github.gradle-nexus.publish-plugin' version '2.0.0' apply false
 }
 blowdryerSetup {
 	github 'diffplug/blowdryer-diffplug', 'tag', '7.1.1'
